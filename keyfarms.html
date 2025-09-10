@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Keyframes </title>
+  <style>
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      animation: moveBox 3s infinite alternate;
+    }
+
+    @keyframes moveBox {
+     from {
+        left:0px
+     }
+     to {
+        left: 500px;
+     }
+    }
+  </style>
+</head>
+<body>
+        <div class="box"></div>
+
+</body>
+</html>
